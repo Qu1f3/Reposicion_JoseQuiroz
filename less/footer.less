@@ -1,0 +1,38 @@
+.main-footer {
+    background: #333;
+    color: @bckgrd-color1;
+    padding: 30px 20px;
+    font-size: @size1;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-content {
+        .flex1();
+
+        p {
+            margin: 0 0 15px;
+        }
+
+        .footer-links {
+            list-style: none;
+            .pad-mar0();
+            display: flex;
+            flex-wrap: wrap;
+            gap: @size1;
+
+            li {
+                a {
+                    color: #ff7043;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

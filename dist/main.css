@@ -1,0 +1,214 @@
+.flex1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.pad-mar0 {
+  padding: 0;
+  margin: 0;
+}
+.main-header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.main-header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff7043;
+  margin: 0;
+}
+.main-header .nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.main-header .nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.main-header .nav ul li a:hover {
+  color: #ff7043;
+}
+.hero {
+  background: url('/img/heropanel.jpg') no-repeat center center;
+  background-size: cover;
+  height: 42vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin: 0 0 10px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin: 0 0 20px;
+}
+.hero button {
+  background: #ff7043;
+  border: none;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.cards-section {
+  background: #fff;
+  padding: 60px 20px;
+}
+.cards-section .cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cards-section .card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.cards-section .card:hover {
+  transform: translateY(-5px);
+}
+.cards-section .card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.cards-section .card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #ff7043;
+}
+.cards-section .card p {
+  font-size: 1rem;
+  color: #555;
+}
+.description {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  font-size: 1.2em;
+}
+.description .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.form button {
+  background: #ff7043;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.testimonials {
+  background: #ffe0b2;
+  padding: 40px 20px;
+  text-align: center;
+}
+.testimonials h2 {
+  margin-bottom: 30px;
+}
+.testimonials .testimonial-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.testimonials .testimonial {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.testimonials .testimonial img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.main-footer {
+  background: #333;
+  color: #fff;
+  padding: 30px 20px;
+  font-size: 1rem;
+}
+.main-footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main-footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.main-footer .footer-content p {
+  margin: 0 0 15px;
+}
+.main-footer .footer-content .footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.main-footer .footer-content .footer-links li a {
+  color: #ff7043;
+  text-decoration: none;
+}
+.main-footer .footer-content .footer-links li a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8f0;
+  color: #333;
+}

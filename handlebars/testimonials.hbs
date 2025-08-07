@@ -1,0 +1,12 @@
+<section class="testimonials">
+    <h2>Lo que dicen nuestros alumnos</h2>
+    <div class="testimonial-list">
+        {{#each testimonials}}
+        <div class="testimonial">
+            <img src="{{photo}}" alt="Foto de {{name}}" />
+            <p>"{{text}}"</p>
+            <strong>- {{name}}</strong>
+        </div>
+        {{/each}}
+    </div>
+</section>

@@ -1,0 +1,86 @@
+{
+    "header": {
+        "logo": "CocinaQuife",
+        "menu": [
+            {
+                "href": "#inicio",
+                "text": "Inicio"
+            },
+            {
+                "href": "#cursos",
+                "text": "Cursos"
+            },
+            {
+                "href": "#testimonios",
+                "text": "Testimonios"
+            },
+            {
+                "href": "#contacto",
+                "text": "Contacto"
+            }
+        ]
+    },
+    "hero": {
+        "title": "Platos gourmet en tu cocina",
+        "subtitle": "Clases en vivo con chefs internacionales desde la comodidad de tu hogar"
+    },
+    "description": "Aprende a cocinar desde cero o mejora tus habilidades con clases prácticas impartidas por chefs internacionales en línea.",
+    "form": {
+        "cta": "Reserva tu clase de prueba gratuita"
+    },
+    "cards": [
+        {
+            "image": "/img/plato1.jpg",
+            "alt": "Platos gourmet",
+            "title": "Platos gourmet",
+            "description": "Aprende a preparar platos dignos de un restaurante desde tu cocina."
+        },
+        {
+            "image": "/img/chef.jpg",
+            "alt": "Chef enseñando en vivo",
+            "title": "Chefs en vivo",
+            "description": "Instrucción directa de chefs internacionales en clases interactivas."
+        },
+        {
+            "image": "/img/estudiantes.jpg",
+            "alt": "Estudiantes cocinando",
+            "title": "Desde casa",
+            "description": "Estudiantes cocinan en tiempo real, siguiendo paso a paso desde su hogar."
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Jose Quiroz",
+            "text": "Ahora cocino platos gourmet para mi familia sin salir de casa. Las clases son prácticas y fáciles de seguir.",
+            "photo": "/img/random1.jpeg"
+        },
+        {
+            "name": "Militzy Aguilera",
+            "text": "Nunca imaginé que aprender a cocinar fuera tan fácil y divertido. Los chefs explican todo paso a paso.",
+            "photo": "/img/random2.jpeg"
+        },
+        {
+            "name": "Nahomy Perez",
+            "text": "Gracias a este curso, empecé a vender mis postres desde casa. ¡Una experiencia que me cambió la vida!",
+            "photo": "/img/random3.jpg"
+        }
+    ],
+    "footer": {
+        "year": 2025,
+        "brand": "CocinaQuife",
+        "links": [
+            {
+                "href": "#privacidad",
+                "text": "Política de privacidad"
+            },
+            {
+                "href": "#terminos",
+                "text": "Términos y condiciones"
+            },
+            {
+                "href": "#contacto",
+                "text": "Contacto"
+            }
+        ]
+    }
+}

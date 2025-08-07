@@ -1,0 +1,38 @@
+.hero {
+    background: url('/img/heropanel.jpg') no-repeat center center;
+    background-size: cover;
+    height: 42vh;
+    width: @all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: @bckgrd-color1;
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 30px 40px;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin: 0 0 10px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin: 0 0 20px;
+    }
+
+    button {
+        background: @primary-color;
+        border: none;
+        color: @bckgrd-color1;
+        padding: 12px 24px;
+        border-radius: 5px;
+        font-size: @size1;
+        cursor: pointer;
+    }
+}
